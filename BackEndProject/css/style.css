@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  /* margin: 0; */
+  padding: 0;
+}
+
+.cf {
+  clear: both;
+}
+
+hr {
+  margin-top: 15px;
+}
+
+.pesquisa {
+  width: 50%;
+  float: left;
+}
+
+.destaque {
+  width: 50%;
+  float: right;
+}
+
+#formpesquisa {
+  border: 1px solid black;
+  padding-left: 15px;
+}
+
+#formutilizador label {
+  margin-right: 60px;
+}
+
+#formutilizador p #morada {
+  margin-right: 20px;
+  position: relative;
+  right: 10px;
+}
+
+#formutilizador p #localidade {
+  margin-right: 20px;
+  position: relative;
+  right: 32px;
+}
+
+#formutilizador p #cp {
+  margin-right: 20px;
+  position: relative;
+  left: 20px;
+}
+
+#formutilizador p #telefone {
+  margin-right: 20px;
+  position: relative;
+  right: 15px;
+}
+
+#formutilizador p #rsenha {
+  margin-right: 20px;
+  position: relative;
+  right: 51px;
+}
+
+#formInserirAnuncio div {
+  border: 1px solid black;
+}
+
+#formInserirAnuncio div label {
+  border: 1px solid white;
+  position: relative;
+  left: 20px;
+  bottom: 12px;
+  background-color: white;
+}
+
+#formInserirAnuncio div p:first-child {
+  position: relative;
+  left: 20px;
+  bottom: 16px;
+}
+
+#tabelaAnuncios, #tabelaAnuncios td, #tabelaAnuncios th {
+    border: 1px solid #000;
+}
+
+#tabelaAnuncios td, #tabelaAnuncios th {
+    padding: 10px;
+}
+
+#tabelaAnuncios img {
+  width: 320px;
+}
+
+#caracteristicasTitulo {
+  margin-top: 50px;
+}
+
+#caracteristicas {
+  list-style: none;
+  position: relative;
+  left: 80px;
+  bottom: 80px;
+  margin-left: 10px;
+}
+
+#precoTitulo {
+  position: relative;
+  bottom: 30px;
+}
+
+#fotosTitulo span img {
+  width: 100px;
+  margin-right: 5px;
+  position: relative;
+  top: 30px;
+}
+
+.fimPaginaAnuncio {
+  margin-top: 40px;
+}
+
+
+#tabelaPesquisa, #tabelaPesquisa td, #tabelaPesquisa th {
+    border: 1px solid #000;
+}
+
+#tabelaPesquisa td, #tabelaPesquisa th {
+    padding: 10px;
+}
+
+#tabelaPesquisa img {
+  width: 320px;
+}
+
+
+#destaqueTitulo {
+  background-color: gray;
+  color: white;
+  width: 570px;
+  position: relative;
+  bottom: 49px;
+  opacity: 0.5;
+  padding-top: 10px;
+  padding-left: 6px;
+  font-weight: bold;
+}
+
+.destaque a img {
+  width: 570px;
+  height: 428px;
+}
+
+#destaqueTitulo a:link {
+  text-decoration: none;
+}
+
+#destaqueTitulo a:visited {
+  color: white;
+}
+
+#imagens {
+  position: absolute;
+  left: 350px;
+  top: 200px;
+}
+
+.bigThumbnail {
+  width: 570px;
+  height: 428px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.activeimage {
+  display: block;
+  position: absolute;
+  bottom: 0.1px;
+}
+
+#imagens ul {
+  list-style: none;
+}
+
+#imagens ul li {
+  position: relative;
+  right: 80px;
+  bottom: 6px;
+  display: inline;
+}
+
+.thumbnail img {
+  width: 114px;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+}
+
+.thumbnail a{
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+#agradecimento {
+  display: none;
+}
+
+#tabelaOfertas, #tabelaOfertas td, #tabelaOfertas th {
+    border: 1px solid #000;
+}
+
+#tabelaOfertas td, #tabelaOfertas th {
+    padding: 10px;
+}
+
+#ofertas {
+  position: absolute;
+  bottom: 19.5rem;
+  left: 25rem;
+}

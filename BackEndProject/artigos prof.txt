@@ -1,0 +1,5 @@
+http://api.jquery.com/jQuery.extend/
+https://j11y.io/javascript/extending-jquerys-selector-capabilities/
+https://www.sitepoint.com/make-your-own-custom-jquery-selector/
+https://coderwall.com/p/gdt7ga/custom-jquery-selectors-using-expressions
+http://sampsonblog.com/creating-your-own-custom-jquery-filters/
